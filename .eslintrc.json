@@ -1,0 +1,44 @@
+{
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "script"
+  },
+  "rules": {
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    "eqeqeq": ["error", "always"],
+    "prefer-const": "warn",
+    "no-var": "error",
+    "no-eval": "error",
+    "no-implied-eval": "error",
+    "no-new-func": "error",
+    "no-script-url": "error",
+    "no-undef": "error",
+    "no-duplicate-case": "error",
+    "no-unreachable": "error",
+    "curly": ["warn", "multi-line"],
+    "no-console": ["warn", { "allow": ["warn", "error"] }]
+  },
+  "globals": {
+    "AppState": "readonly",
+    "PAGES": "readonly",
+    "GeminiAI": "readonly",
+    "Security": "readonly",
+    "navigateTo": "readonly",
+    "showToast": "readonly",
+    "createAIChatInterface": "readonly",
+    "sendChatMessage": "readonly",
+    "formatAIResponse": "readonly",
+    "escapeHtml": "readonly",
+    "generateBarChart": "readonly",
+    "changeRole": "readonly",
+    "toggleSidebar": "readonly",
+    "closeSidebar": "readonly",
+    "drawStadiumHeatmap": "readonly",
+    "startVoiceInput": "readonly"
+  }
+}
